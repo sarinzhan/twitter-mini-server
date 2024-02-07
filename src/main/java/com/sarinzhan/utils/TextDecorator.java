@@ -1,4 +1,4 @@
-package gpt.utils;
+package com.sarinzhan.utils;
 
 public class TextDecorator {
     private static String RESET = "\u001B[0m";

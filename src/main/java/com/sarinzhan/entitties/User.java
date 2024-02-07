@@ -1,8 +1,9 @@
-package gpt.entitties;
+package com.sarinzhan.entitties;
 
 import java.io.Serial;
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class User implements Serializable {
     @Serial
@@ -84,5 +85,18 @@ public class User implements Serializable {
     public String toString() {
         return String.format("[Пользователь] {\n\tID: %d\n\tПолное имя:  %s %s;\n\tДата рождения: %s;\n\tЛогин:%s\n}\n",
                 this.id,this.firstName,this.secondName,this.birthday.toString(),this.login);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(id, user.id) && Objects.equals(login, user.login) && Objects.equals(password, user.password) && Objects.equals(firstName, user.firstName) && Objects.equals(secondName, user.secondName) && Objects.equals(birthday, user.birthday);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, login, password, firstName, secondName, birthday);
     }
 }

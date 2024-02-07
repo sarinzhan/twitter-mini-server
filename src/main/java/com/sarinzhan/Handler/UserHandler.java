@@ -1,8 +1,8 @@
-package gpt.Handler;
+package com.sarinzhan.Handler;
 
-import gpt.Service.Authenticator;
-import gpt.Service.UserService;
-import gpt.utils.TextDecorator;
+import com.sarinzhan.Service.Authenticator;
+import com.sarinzhan.Service.UserService;
+import com.sarinzhan.utils.TextDecorator;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 

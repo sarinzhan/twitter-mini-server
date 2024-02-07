@@ -1,9 +1,10 @@
-package gpt.Service;
+package com.sarinzhan.Service;
 
-import gpt.entitties.User;
+import com.sarinzhan.entitties.User;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 
+import java.beans.PropertyChangeListener;
 import java.util.*;
 
 public class Authenticator {

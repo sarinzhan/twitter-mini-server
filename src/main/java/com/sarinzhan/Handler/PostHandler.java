@@ -1,7 +1,7 @@
-package gpt.Handler;
+package com.sarinzhan.Handler;
 
-import gpt.Service.Authenticator;
-import gpt.Service.PostService;
+import com.sarinzhan.Service.Authenticator;
+import com.sarinzhan.Service.PostService;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 

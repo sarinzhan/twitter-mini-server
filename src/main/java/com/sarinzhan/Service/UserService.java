@@ -1,8 +1,8 @@
-package gpt.Service;
+package com.sarinzhan.Service;
 
-import gpt.data.UserData;
-import gpt.entitties.User;
-import gpt.utils.TextDecorator;
+import com.sarinzhan.data.UserData;
+import com.sarinzhan.entitties.User;
+import com.sarinzhan.utils.TextDecorator;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 

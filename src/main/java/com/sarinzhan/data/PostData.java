@@ -1,4 +1,4 @@
-package gpt.data;
+package com.sarinzhan.data;
 
 public class PostData {
 

@@ -1,13 +1,13 @@
-package gpt;
+package com.sarinzhan;
 
-import gpt.Handler.PostHandler;
-import gpt.Handler.UserHandler;
-import gpt.Service.Authenticator;
-import gpt.Service.PostService;
-import gpt.Service.UserService;
-import gpt.data.PostData;
-import gpt.data.UserData;
-import gpt.entitties.User;
+import com.sarinzhan.Handler.PostHandler;
+import com.sarinzhan.Handler.UserHandler;
+import com.sarinzhan.data.PostData;
+import com.sarinzhan.data.UserData;
+import com.sarinzhan.Service.Authenticator;
+import com.sarinzhan.Service.PostService;
+import com.sarinzhan.Service.UserService;
+import com.sarinzhan.entitties.User;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;

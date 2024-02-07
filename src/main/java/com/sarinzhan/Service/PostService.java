@@ -1,6 +1,6 @@
-package gpt.Service;
+package com.sarinzhan.Service;
 
-import gpt.data.PostData;
+import com.sarinzhan.data.PostData;
 
 public class PostService {
     private PostData postData;

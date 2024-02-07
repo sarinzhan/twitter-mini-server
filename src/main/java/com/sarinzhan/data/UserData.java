@@ -1,6 +1,6 @@
-package gpt.data;
+package com.sarinzhan.data;
 
-import gpt.entitties.User;
+import com.sarinzhan.entitties.User;
 
 import java.util.ArrayList;
 import java.util.List;

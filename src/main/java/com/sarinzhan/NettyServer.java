@@ -1,4 +1,4 @@
-package gpt;
+package com.sarinzhan;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
@@ -33,7 +33,7 @@ public class NettyServer {
         }
     }
     public static void main(String [] args) throws InterruptedException {
-        new NettyServer(8089, new ServerInitializer()).run();
+        new NettyServer(8080, new ServerInitializer()).run();
     }
 
 }
